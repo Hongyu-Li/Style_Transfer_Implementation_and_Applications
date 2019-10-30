@@ -37,22 +37,14 @@ Term: Fall 2018
 
 ## How to reproduce our results: 
 
-* Implementation of 1 to 1 neural style transfer: open `style_transfer_alpha_final.ipynb` and run it. This is an end-to-end notebook which means you do not need to revise anything in order to reproduce our results. (*Note: you could run it without GPU*.)
-* Implementation of fast neural style transfer:  open `style_transfer_beta_final.ipynb` and run it. This is an end-to-end notebook which means you do not need to revise anything in order to reproduce our results.  (*Note: you should run it with GPU and it would take 1 hour or longer to train.*)
-* Webcam application: open `webcam_final.ipynb` and run it. This is an end-to-end notebook which means you do not need to revise anything in order to reproduce our results.  (*Note: you should run it locally because the camera device is required for this application.*)
+* Implementation of 1 to 1 neural style transfer: open `lib/style_transfer_alpha_final.ipynb` and run it. This is an end-to-end notebook which means you do not need to revise anything in order to reproduce our results. (*Note: you could run it without GPU*.)
+* Implementation of fast neural style transfer:  open `lib/style_transfer_beta_final.ipynb` and run it. This is an end-to-end notebook which means you do not need to revise anything in order to reproduce our results.  (*Note: you should run it with GPU and it would take 1 hour or longer to train.*)
+* Webcam application: open `lib/webcam_final.ipynb` and run it. This is an end-to-end notebook which means you do not need to revise anything in order to reproduce our results.  (*Note: you should run it locally because the camera device is required for this application.*)
 > - If you want to reproduce the result of [Starry Night](https://github.com/PeifengHong/Neural-style-transfer-implementation-and-applications/blob/master/data/starry_night.jpg), you do not have to revise the notebook. 
 > - If you want to reproduce the result of [Victoire](https://github.com/PeifengHong/Neural-style-transfer-implementation-and-applications/blob/master/data/victoire.jpg), you have to replace `beta_model_style_1.h5` with  `beta_model_style_2.h5` everywhere in step 5. 
 > - If you want to reproduce the result of [Women at Their Toilette](https://github.com/PeifengHong/Neural-style-transfer-implementation-and-applications/blob/master/data/Women_at_Their_%20Toilette.jpg), you have to replace `beta_model_style_1.h5` with  `beta_model_style_3.h5` everywhere in step 5. 
 > - If you want to reproduce the result of [Google Map](https://github.com/PeifengHong/Neural-style-transfer-implementation-and-applications/blob/master/data/google_map.jpg), you have to replace `beta_model_style_1.h5` with  `beta_model_style_4.h5` everywhere in step 5. 
-* Dash app demo: Dash app is an interactive web application developed by python. Our dash app project contains six python files and an assets folder with images. They are App.py, Home.py, DIY.py, WebCam.py, About.py and Index.py. To make use of our app, 
-> * Clone the dashapp folder
-> * Make sure your system has all the required package
-> * Open terminal or command line and run following command: python Index.py
-> * Home page shows some result of our work, including the starry night style bulter library.
-> > * Click the DIY bar of menu, and then upload your image to see the transfered image with starry night style
-> > * Click the WebCam bar of menu, and then select one of the three painting, then click start button to see the live video. Press Q to quit the camera. You can try all of the three styles.
-> > * About page is the information of our team member.
-
+* Dash app demo: Please go to `dashapp` folder to see more details about how to start and deploy our dash app demo.
 
 
 ## References:
