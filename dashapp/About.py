@@ -20,7 +20,7 @@ nav_menu = html.Div([
         ## NavBar rignt-aligned
         html.Ul([
             html.Li([
-                html.A([html.I(className="fa fa-github")], href='https://github.com/TZstatsADS/Spring2018-Project2-Group1')
+                html.A([html.I(className="fa fa-github")], href='https://github.com/Hongyu-Li/Style_Transfer_Implementation_and_Applications')
             ])
         ], className="nav navbar-nav navbar-right")
     ], className="container-fluid")
@@ -45,7 +45,7 @@ nav_bar = html.Nav([
                 html.Li([html.A('About', href='/About')]),
                 html.Li([html.A([
                     html.I(className="fa fa-github")
-                ], href='https://github.com/PeifengHong/Neural-style-transfer-implementation-and-applications/')])
+                ], href='https://github.com/Hongyu-Li/Style_Transfer_Implementation_and_Applications/')])
             ], className="nav navbar-nav navbar-right")
         ], className="collapse navbar-collapse", id="myNavbar")
     ], className="container")
