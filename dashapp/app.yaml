@@ -1,6 +1,7 @@
 runtime: python
 env: flex
-entrypoint: gunicorn -b :$PORT Index:app.server -w 2 --timeout 1000
+# entrypoint: gunicorn -b :$PORT Index:app.server -w 2 --timeout 1000
+entrypoint: python Index.py
 runtime_config:
   python_version: 3
 manual_scaling:
