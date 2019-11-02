@@ -1,0 +1,32 @@
+.about {
+    margin: 10vh 10vw;
+    text-align: center;
+    font-family: "Open Sans";
+    p {
+        font-style:italic;
+        font-size: 20px;
+        font-weight: lighter;
+    }
+    .team {
+        display: flex;
+        .card{
+            margin-top: 5vh;
+            padding: 0 2vw;
+            width: 20vw;
+            text-align: center;
+            .avatar {
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+            }
+            .title {
+                margin-bottom: 1vh;
+                margin-top: 1vh;
+            }
+        }
+    }
+
+}
+
+
+

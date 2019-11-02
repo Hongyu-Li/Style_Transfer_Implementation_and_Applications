@@ -1,0 +1,23 @@
+.imgSize{
+    height: 93vh;
+}
+
+.left, .right {
+    position: absolute;
+    top: 55vh;
+    color: white;
+    font-size: 3vh;
+}
+
+.right{
+    left: 97vw;
+}
+
+.title {
+    width: 25vw;
+    text-align: center;
+    position: absolute;
+    top: 80vh;
+    left: 38vw;
+    color: white;
+}

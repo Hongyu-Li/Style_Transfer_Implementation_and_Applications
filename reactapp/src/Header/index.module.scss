@@ -1,0 +1,30 @@
+.Header {
+    height: 5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-family: "Open Sans";
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+    h1 {
+        color: rgb(119,119,119);
+        width: 60%;
+        font-size: 20px;
+    }
+    .menu {
+        width: 30%;
+        font-size: 17px;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        text-align: right;
+        .link {
+            text-decoration: none;
+            color: rgb(119,119,119);
+            &:focus, &:hover, &:visited, &:link, &:active {
+                text-decoration: none;
+            }
+        }
+    }
+}
