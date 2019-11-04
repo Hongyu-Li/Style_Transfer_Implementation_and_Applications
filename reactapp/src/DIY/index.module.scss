@@ -1,12 +1,32 @@
 .diy {
-    border: 1px solid black;
     text-align: center;
+    font-family: sans-serif;
+    font-weight: lighter;
+    h1 {
+        font-size: 60px;
+        margin-top: 4vh;
+        margin-bottom: 2vh;
+    }
+    p {
+        font-size: 20px;
+        margin-top: 2vh;
+        margin-bottom: 4vh;
+    }
     .upload {
-        width: 50vw;
-        height: 20vh;
-        margin-left: 25vw;
-        margin-right: 25vw;
+        width: 40vw;
+        height: 50px;
+        margin-left: 30vw;
+        margin-right: 30vw;
+        margin-top: 10px;
         padding: 0;
-        border: 1px solid black;
+    }
+    .result {
+        margin: 5vh 1vw 0;
+        height: 55vh;
+        display: flex;
+        .inputImage, .outputImage {
+            height: 100%;
+            width: 50vw;
+        }
     }
 }
